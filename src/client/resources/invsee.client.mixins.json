@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.Lily3892.Invsee.Client.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+      "ClickEventActionMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "invsee",
+	"version": "${version}",
+	"name": "Invsee Mod",
+	"description": "Lets you read data about rendered items on entities",
+	"authors": [
+		"https://github.com/Lilyp3892"
+	],
+	"contact": {},
+	"license": "none",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.Lily3892.Invsee.InvseeMod"
+		],
+		"client": [
+			"com.Lily3892.Invsee.Client.InvseeModClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "invsee.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"fabric-api": "*",
+		"minecraft": "~1.21",
+		"java": ">=21"
+	},
+	"suggests": {
+	}
+}
